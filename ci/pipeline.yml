@@ -14,7 +14,7 @@ resources:
 - name: slack-alert
   type: slack-notification
   source:
-    url:{{slack_url}} 
+    url: {{slack_url}} 
 
 jobs:
 - name: test-app-jeff

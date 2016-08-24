@@ -11,6 +11,7 @@ RSpec.describe Radar, ".status_for" do
     end
 
     subject(:status) do
+      throws "fails the test"
       Radar.status_for("JFK")
     end
 
